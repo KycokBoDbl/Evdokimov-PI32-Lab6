@@ -18,6 +18,7 @@ enum class Classes {
     SHIELDBEARER
 };
 
+
 std::string getClassName(Classes cls) {
     switch (cls) {
     case Classes::SWORDSMAN: return "Мечник";
