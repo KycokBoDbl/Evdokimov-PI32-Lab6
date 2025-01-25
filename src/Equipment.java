@@ -1,6 +1,6 @@
 public abstract class Equipment {
-    private String name;
-    private int cost;
+    protected String name;
+    protected int cost;
 
     public Equipment(String name, int cost) {
         this.name = name;
